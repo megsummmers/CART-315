@@ -179,3 +179,91 @@ Received Import Request.
 Start importing Assets/Stalagtite.prefab using Guid(30e360eb1b70c4a95842b778276aaaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fb0d012d37572c54c1f3f7944a682f') in 0.008000 seconds 
   Import took 0.012797 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 946.332616 seconds.
+  path: Assets/Scenes/Paint The World.unity
+  artifactKey: Guid(9af5b2a8c58744c12b3267fedc7c9893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Paint The World.unity using Guid(9af5b2a8c58744c12b3267fedc7c9893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba6e2c4fe3c749cdb408feec3a49224') in 0.012500 seconds 
+  Import took 0.045378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.439273 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f0a7ca5b1ba402cfc0dad529357d7e') in 0.003112 seconds 
+  Import took 0.012227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.041782 seconds.
+  path: Assets/Scenes/Paint_Game.unity
+  artifactKey: Guid(a213d258beafb41a7995ac0992d0a422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Paint_Game.unity using Guid(a213d258beafb41a7995ac0992d0a422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cad9493005f2138cdcdd65a47aab36') in 0.002397 seconds 
+  Import took 0.010762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4318.810577 seconds.
+  path: Assets/aurora-sanchii.mp3
+  artifactKey: Guid(9b1f32efd97c24324bbfdc4d55663358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/aurora-sanchii.mp3 using Guid(9b1f32efd97c24324bbfdc4d55663358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c617798b9a01cb7f82031ac2e841912b') in 1.689869 seconds 
+  Import took 1.722767 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.700 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1703ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (1376ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2331 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.4 MB.
+System memory in use after: 211.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2850.
+Total: 3.573826 ms (FindLiveObjects: 0.231224 ms CreateObjectMapping: 0.110173 ms MarkObjects: 3.141525 ms  DeleteObjects: 0.089932 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
