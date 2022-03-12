@@ -61,8 +61,10 @@ public class clickObject : MonoBehaviour
           if (tag == "Motel"){
             motelAnimation = true;
           } else if (tag == "key") {
+            Debug.Log("1");
             keyUp = !keyUp;
             if(keyUp){
+              Debug.Log("");
               txt.text = dialogue[7];
               keyCollected = true;
               key.transform.position = newKeyPos;
@@ -78,20 +80,23 @@ public class clickObject : MonoBehaviour
           //objRenderer.material.SetColor("_Color", colors[color_choice]);
         }
       }
-
-      if (Input.GetKey("right") && keyCollected){
-        if (roomNum == 0){
+      if (Input.GetKeyDown("right") && keyCollected){
+        Debug.Log(":D");
+        if (roomNum <= 0){
           txt.text = "There are no rooms that way, why would I go there?";
         } else {
-          roomNum--;
+          roomNum-= 1;
+          txt.text = "Most rooms are currently unfinished. Check back later for more content.";
           transform.position = roomPos[roomNum];
         }
       }
-      if (Input.GetKey("left") && keyCollected){
-        if (roomNum == 3){
+      if (Input.GetKeyDown("left") && keyCollected){
+        Debug.Log("):");
+        if (roomNum >= 3){
           txt.text = "There are no rooms that way, why would I go there?";
         } else {
-          roomNum++;
+          roomNum+= 1;
+          txt.text = "Most rooms are currently unfinished. Check back later for more content.";
           transform.position = roomPos[roomNum];
         }
       }
