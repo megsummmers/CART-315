@@ -37,9 +37,11 @@ public class clickObject : MonoBehaviour
       if(motelAnimation == true){
         transform.Translate(0, 0, 6 * Time.deltaTime, Space.World);
         float posZ = gameObject.transform.position.z;
+        txt.text = "After a long day of driving you need to stop for a break and see a large motel on the side of the road. You see the lights on and decide to head in and see if there are any rooms available.";
         if (posZ >= -140){
           transform.position = new Vector3(0, 5, 7);
           motelAnimation = false;
+          txt.text = "You find the main desk but there doesn't seem to be anyone here, better look around for some information.";
         }
       }
       //bring key to Camera
